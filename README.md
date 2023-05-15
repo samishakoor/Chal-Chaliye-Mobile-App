@@ -1,5 +1,4 @@
-"Chal Chaliye" in a mobile application coded in java to provive one-stop solution to travellers to fulfill their basic needs.
-This application uses Firebase features like Realtime Database for database purposes and Firebase Authentication to authenticate the end user.
+"Chal Chaliye" in a mobile application coded in java to provide one-stop solution to travelers so that they can easily make their travel decisions before going anywhere. This application uses Firebase features like Realtime Database for database purposes and Firebase Authentication to authenticate the end user.
 
 This application includes the following features :
 1. Splash Screen
