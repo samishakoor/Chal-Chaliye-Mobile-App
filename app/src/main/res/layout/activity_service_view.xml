@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/serv_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/grey_background" />
+
+            <TextView
+                android:id="@+id/place_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service Name"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:paddingTop="16dp" />
+
+            <TextView
+                android:id="@+id/place_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service Price"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:paddingTop="8dp" />
+
+            <Button
+                android:id="@+id/viewLoc_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show Location"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:id="@+id/Book_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Purchase"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:id="@+id/leave_review_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Leave Review"
+                android:layout_marginTop="16dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/RatingRView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

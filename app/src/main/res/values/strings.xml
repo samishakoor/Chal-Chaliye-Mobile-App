@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SMD_Project</string>
+    <string name="todo1">TODO1</string>
+    <string name="todo2">todo2</string>
+    <string name="welcome_nto_chal_chaliye">Welcome\nto Chal Chaliye</string>
+    <string name="escape_the_ordinary_explore_the_extraordinary_with_nchal_chaliye">Escape the ordinary, explore the extraordinary with\nChal Chaliye.</string>
+    <string name="get_started">Get Started</string>
+    <string name="hi_nplease_login">Hi,\nPlease Login</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="payments_show_name">Successfully received payment data for %s!</string>
+    <string name="forgot_password_recover_it">Forgot Password? Recover it</string>
+    <string name="or_login_with">Or Login With</string>
+    <string name="facebook">Facebook</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_naccount">Create\nAccount</string>
+    <string name="name">Name</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="recover_it">Recover it</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_an_account">Dont have an account?</string>
+    <string name="register_now">Register Now</string>
+    <string name="signup">Signup</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="reset">Reset</string>
+
+    <!-- Checkout activity -->
+    <string name="title_activity_checkout">CheckoutActivity</string>
+    <string name="checkout_item_description">Description</string>
+    <string name="googlepay_status_unavailable" translatable="false">Unfortunately, Google Pay is
+        not available on this phone.
+    </string>
+    <string name="title_activity_customer_landing_page">customer_landing_page</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+</resources>
